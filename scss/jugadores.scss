@@ -1,0 +1,83 @@
+@import "encabezado";
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+figcaption{
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Copse', serif;
+    color: yellow;
+    transition: all 1s;
+
+
+}
+figcaption:hover {
+	transform: scale(1.2);
+	font-size: 32px;
+	cursor: pointer;
+  }
+
+.equipo{
+	max-width: 1400px;
+	margin: 5px;
+	display: grid;
+}
+
+.plantel{
+	text-align: center;
+	font-size: 38px;
+	margin: 15px 0px 40px;
+	grid-column: span 5;
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bungee', cursive;
+    font-family: 'Copse', serif;
+color: yellow
+	 
+}
+
+.equipo-container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    background-color: rgba(21, 21, 66, 0.432);
+
+  
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.equipo-item {
+	width: 200px;
+
+
+}
+div{
+    grid-column: 2/6;
+
+}
+
+.equipo-imagen{
+	width: 200px;
+    padding: 10px;
+    transition: all 1s;
+
+
+
+
+}
+.equipo-imagen:hover {
+	transform: scale(1.2);
+	font-size: 32px;
+	cursor: pointer;
+  }

@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* line 3, ../../../Desktop/boca/scss/_encabezado.scss */
+#imagen1 {
+  display: flex;
+  text-align: center;
+  background: url(https://media1.giphy.com/media/7g4xuCeAdVKdq/giphy.gif);
+  margin: 20px;
+  padding: 10px; }
+
+/* line 13, ../../../Desktop/boca/scss/_encabezado.scss */
+.escudo {
+  max-width: 150%;
+  margin: 20px;
+  width: 130px;
+  object-fit: contain; }
+
+/* line 19, ../../../Desktop/boca/scss/_encabezado.scss */
+.titulo {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border-width: 4px 0;
+  position: relative;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+  text-align: center;
+  font-weight: normal;
+  line-height: 200%;
+  font-family: fantasy;
+  font-size: 40px; }
+
+/* line 36, ../../../Desktop/boca/scss/_encabezado.scss */
+.nav-link {
+  color: yellow; }
+
+@media (max-width: 768px) {
+  /* line 41, ../../../Desktop/boca/scss/_encabezado.scss */
+  .titulo {
+    display: none; }
+  /* line 43, ../../../Desktop/boca/scss/_encabezado.scss */
+  #imagen1 {
+    background: none; } }
+
+@media (max-width: 990px) {
+  /* line 49, ../../../Desktop/boca/scss/_encabezado.scss */
+  .titulo {
+    font-size: 30px; }
+  /* line 52, ../../../Desktop/boca/scss/_encabezado.scss */
+  .escudo {
+    display: none; } }
+
+/* line 2, ../../../Desktop/boca/scss/indumentaria.scss */
+.container {
+  margin: 20px; }
+
+/* line 5, ../../../Desktop/boca/scss/indumentaria.scss */
+.femenino {
+  text-align: center;
+  font-size: 38px;
+  margin: 15px 0px 40px;
+  grid-column: span 5;
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Anton', sans-serif;
+  color: #e0d951; }
+
+/* line 15, ../../../Desktop/boca/scss/indumentaria.scss */
+.galeria {
+  position: relative;
+  width: 60%;
+  /* Ancho a ocupar por la galería sobre el total disponible */
+  overflow: hidden;
+  margin: 20px auto;
+  background-color: #000;
+  box-shadow: 1px 1px 6px #000; }
+
+/* line 23, ../../../Desktop/boca/scss/indumentaria.scss */
+.galeria:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjxhzcSi-N4Grw77bve_dws2sS4GRplrXUOjJRKA3XnHl9E2rc);
+  /* Fondo por defecto */
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  opacity: .1; }
+
+/* line 32, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen {
+  position: relative;
+  width: 15%;
+  /* Ancho de la miniatura sobre el ancho total de la galería */
+  padding-bottom: 15%;
+  /* Idéntico al anterior para miniaturas cuadradas */
+  background-position: 50% 50%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  cursor: pointer; }
+
+/* line 40, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:nth-of-type(1) {
+  background-image: url(https://http2.mlstatic.com/D_NQ_NP_908052-MLA28702067306_112018-Q.jpg); }
+
+/* line 43, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:nth-of-type(2) {
+  background-image: url(https://http2.mlstatic.com/sudadera-o-musculosa-de-dama-de-boca-oficial-D_NQ_NP_756425-MLA28262562517_092018-F.jpg); }
+
+/* line 46, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:nth-of-type(3) {
+  background-image: url(https://d26lpennugtm8s.cloudfront.net/stores/868/618/products/931-98f7db341ab323cd1f15387751519529-1024-1024.jpg); }
+
+/* line 49, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:nth-of-type(4) {
+  background-image: url(https://http2.mlstatic.com/remera-boca-juniors-let-mujer-D_NQ_NP_931256-MLA28255089452_092018-Q.jpg); }
+
+/* line 52, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:nth-of-type(5) {
+  background-image: url(https://www.bocashop.com.ar/ccstore/v1/images/?source=/file/v8955069084202689261/products/BJ181152%BL_1.jpg&height=300&width=300); }
+
+/* line 57, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:before {
+  content: "";
+  position: absolute;
+  top: -900%;
+  /* ((Nºimágenes*2)-1)*100*/
+  left: 100%;
+  width: 566%;
+  /* (10000/ancho_imagen)-100 */
+  height: 500%;
+  /* Nºimagenes*100 */
+  background-image: inherit;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-transition: all .8s;
+  -webkit-transition: all .8s;
+  transition: all .8s; }
+
+/* line 68, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:hover:nth-of-type(1):before {
+  top: 0%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 71, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:hover:nth-of-type(2):before {
+  top: -100%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 74, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:hover:nth-of-type(3):before {
+  top: -200%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 77, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:hover:nth-of-type(4):before {
+  top: -300%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 81, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen:hover:nth-of-type(5):before {
+  top: -400%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 86, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2 {
+  position: relative;
+  width: 15%;
+  /* Ancho de la miniatura sobre el ancho total de la galería */
+  padding-bottom: 15%;
+  /* Idéntico al anterior para miniaturas cuadradas */
+  background-position: 50% 50%;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  cursor: pointer; }
+
+/* line 94, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:nth-of-type(1) {
+  background-image: url(https://www.authogar.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/c/a/camiseta_boca_ofic_aj5292_492_1.png); }
+
+/* line 97, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:nth-of-type(2) {
+  background-image: url(https://cdn.shopify.com/s/files/1/0043/1662/7032/products/19d4e03708_2048x.png?v=1570128785); }
+
+/* line 100, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:nth-of-type(3) {
+  background-image: url(https://www.templodelfutbol.com.ar/1954-large_default/cam-boca-m-nk-brt-stad-jys-ss-away-al-mn.jpg); }
+
+/* line 103, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:nth-of-type(4) {
+  background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto:sensitive,fl_lossy/187ef3554f2344548263ab3c013f12e4_9366/Camiseta_Visitante_Boca_Juniors_Blanco_GL4171_01_laydown.jpg); }
+
+/* line 106, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:nth-of-type(5) {
+  background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto:sensitive,fl_lossy/3238d8e3307b4ec99821ab3b01596db7_9366/Camiseta_Titular_Boca_Juniors_Azul_GL4175_01_laydown.jpg); }
+
+/* line 111, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:before {
+  content: "";
+  position: absolute;
+  top: -900%;
+  /* ((Nºimágenes*2)-1)*100*/
+  left: 100%;
+  width: 566%;
+  /* (10000/ancho_imagen)-100 */
+  height: 500%;
+  /* Nºimagenes*100 */
+  background-image: inherit;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-transition: all .8s;
+  -webkit-transition: all .8s;
+  transition: all .8s; }
+
+/* line 122, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:hover:nth-of-type(1):before {
+  top: 0%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 125, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:hover:nth-of-type(2):before {
+  top: -100%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 128, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:hover:nth-of-type(3):before {
+  top: -200%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 131, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:hover:nth-of-type(4):before {
+  top: -300%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/* line 135, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen2:hover:nth-of-type(5):before {
+  top: -400%;
+  /* (Nº.nth-1)*(-100) */ }
+
+/*# sourceMappingURL=indumentaria.css.map */

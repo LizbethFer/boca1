@@ -1,0 +1,67 @@
+/* line 3, ../../../Desktop/boca/scss/_encabezado.scss */
+#imagen1 {
+  display: flex;
+  text-align: center;
+  background: url(https://media1.giphy.com/media/7g4xuCeAdVKdq/giphy.gif);
+  margin: 20px;
+  padding: 10px; }
+
+/* line 13, ../../../Desktop/boca/scss/_encabezado.scss */
+.escudo {
+  max-width: 150%;
+  margin: 20px;
+  width: 130px;
+  object-fit: contain; }
+
+/* line 19, ../../../Desktop/boca/scss/_encabezado.scss */
+.titulo {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border-width: 4px 0;
+  position: relative;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+  text-align: center;
+  font-weight: normal;
+  line-height: 200%;
+  font-family: fantasy;
+  font-size: 40px; }
+
+/* line 36, ../../../Desktop/boca/scss/_encabezado.scss */
+.nav-link {
+  color: yellow; }
+
+@media (max-width: 768px) {
+  /* line 41, ../../../Desktop/boca/scss/_encabezado.scss */
+  .titulo {
+    display: none; }
+  /* line 43, ../../../Desktop/boca/scss/_encabezado.scss */
+  #imagen1 {
+    background: none; } }
+
+@media (max-width: 990px) {
+  /* line 49, ../../../Desktop/boca/scss/_encabezado.scss */
+  .titulo {
+    font-size: 30px; }
+  /* line 52, ../../../Desktop/boca/scss/_encabezado.scss */
+  .escudo {
+    display: none; } }
+
+/* line 3, ../../../Desktop/boca/scss/inicio.scss */
+.container-sm {
+  margin: 20px; }
+
+/* line 6, ../../../Desktop/boca/scss/inicio.scss */
+.d-block {
+  width: 50px;
+  alt: 50px; }
+
+/* line 11, ../../../Desktop/boca/scss/inicio.scss */
+.nav-link {
+  color: yellow; }
+
+/*# sourceMappingURL=inicio.css.map */

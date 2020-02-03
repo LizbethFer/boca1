@@ -1,0 +1,127 @@
+/* line 3, ../../../Desktop/boca/scss/_encabezado.scss */
+#imagen1 {
+  display: flex;
+  text-align: center;
+  background: url(https://media1.giphy.com/media/7g4xuCeAdVKdq/giphy.gif);
+  margin: 20px;
+  padding: 10px; }
+
+/* line 13, ../../../Desktop/boca/scss/_encabezado.scss */
+.escudo {
+  max-width: 150%;
+  margin: 20px;
+  width: 130px;
+  object-fit: contain; }
+
+/* line 19, ../../../Desktop/boca/scss/_encabezado.scss */
+.titulo {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  border-width: 4px 0;
+  position: relative;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+  text-align: center;
+  font-weight: normal;
+  line-height: 200%;
+  font-family: fantasy;
+  font-size: 40px; }
+
+/* line 36, ../../../Desktop/boca/scss/_encabezado.scss */
+.nav-link {
+  color: yellow; }
+
+@media (max-width: 768px) {
+  /* line 41, ../../../Desktop/boca/scss/_encabezado.scss */
+  .titulo {
+    display: none; }
+  /* line 43, ../../../Desktop/boca/scss/_encabezado.scss */
+  #imagen1 {
+    background: none; } }
+
+@media (max-width: 990px) {
+  /* line 49, ../../../Desktop/boca/scss/_encabezado.scss */
+  .titulo {
+    font-size: 30px; }
+  /* line 52, ../../../Desktop/boca/scss/_encabezado.scss */
+  .escudo {
+    display: none; } }
+
+/* line 3, ../../../Desktop/boca/scss/jugadores.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 10, ../../../Desktop/boca/scss/jugadores.scss */
+figcaption {
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bungee', cursive;
+  font-family: 'Copse', serif;
+  color: yellow;
+  transition: all 1s; }
+
+/* line 21, ../../../Desktop/boca/scss/jugadores.scss */
+figcaption:hover {
+  transform: scale(1.2);
+  font-size: 32px;
+  cursor: pointer; }
+
+/* line 27, ../../../Desktop/boca/scss/jugadores.scss */
+.equipo {
+  max-width: 1400px;
+  margin: 5px;
+  display: grid; }
+
+/* line 33, ../../../Desktop/boca/scss/jugadores.scss */
+.plantel {
+  text-align: center;
+  font-size: 38px;
+  margin: 15px 0px 40px;
+  grid-column: span 5;
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Bungee', cursive;
+  font-family: 'Copse', serif;
+  color: yellow; }
+
+/* line 47, ../../../Desktop/boca/scss/jugadores.scss */
+.equipo-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  background-color: rgba(21, 21, 66, 0.432);
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: repeat(5, 1fr); }
+
+/* line 60, ../../../Desktop/boca/scss/jugadores.scss */
+.equipo-item {
+  width: 200px; }
+
+/* line 65, ../../../Desktop/boca/scss/jugadores.scss */
+div {
+  grid-column: 2/6; }
+
+/* line 70, ../../../Desktop/boca/scss/jugadores.scss */
+.equipo-imagen {
+  width: 200px;
+  padding: 10px;
+  transition: all 1s; }
+
+/* line 79, ../../../Desktop/boca/scss/jugadores.scss */
+.equipo-imagen:hover {
+  transform: scale(1.2);
+  font-size: 32px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=jugadores.css.map */
