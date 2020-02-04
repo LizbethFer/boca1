@@ -114,11 +114,12 @@ div {
 
 /* line 70, ../../../Desktop/boca/scss/jugadores.scss */
 .equipo-imagen {
+  max-width: 100%;
   width: 200px;
   padding: 10px;
   transition: all 1s; }
 
-/* line 79, ../../../Desktop/boca/scss/jugadores.scss */
+/* line 81, ../../../Desktop/boca/scss/jugadores.scss */
 .equipo-imagen:hover {
   transform: scale(1.2);
   font-size: 32px;

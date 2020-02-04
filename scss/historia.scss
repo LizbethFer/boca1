@@ -11,7 +11,9 @@
     padding: 0;
   }
   
-  
+  nav{
+    display: flex;
+  }
   
   .titulo h1{
       color: #2939c2;
@@ -51,9 +53,7 @@
       border: 1px solid black;
     }
     .contenedor div {
-      background-color: rgba(7, 6, 87, 0.63);
       padding: 20px;
-      border: 1px solid black;
     }
     .contenedor footer{
       grid-column: 1/6;
@@ -106,7 +106,6 @@
       padding: 5px;
     }
     .contenedor .imagenabajo{
-      background-color: rgba(238, 229, 97, 0.63);
       color: #fff;
       height: 180px;
       display: flex;
@@ -164,4 +163,21 @@
   75%{-webkit-transform:scale(0.9,0.9); opacity:0.7}
   100%{-webkit-transform:scale(1,1); opacity:1}
   }
+  .abajo{
+    background-color: rgba(248, 245, 33, 0.904);
+  }
 
+@media screen and (max-width:768px ){
+  .principal{
+    text-align: center;
+  }
+  .contenedor .principal{
+    grid-column: 1/-1;
+  }
+  .contenedor .lateral{
+    grid-column: 1/-1;
+  }
+  .contenedor .imagenabajo{
+    grid-column: 1/-1;
+  }
+}

@@ -68,6 +68,8 @@ div{
 }
 
 .equipo-imagen{
+    max-width: 100%;      
+
 	width: 200px;
     padding: 10px;
     transition: all 1s;
@@ -80,4 +82,7 @@ div{
 	transform: scale(1.2);
 	font-size: 32px;
 	cursor: pointer;
+  }
+  @media (max-width:768px){
+  
   }

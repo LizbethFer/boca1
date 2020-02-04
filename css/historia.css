@@ -290,14 +290,18 @@ footer {
   margin: 0;
   padding: 0; }
 
-/* line 16, ../../../Desktop/boca/scss/historia.scss */
+/* line 14, ../../../Desktop/boca/scss/historia.scss */
+nav {
+  display: flex; }
+
+/* line 18, ../../../Desktop/boca/scss/historia.scss */
 .titulo h1 {
   color: #2939c2;
   padding: 20px 0;
   text-align: center;
   font-size: 2.9em; }
 
-/* line 22, ../../../Desktop/boca/scss/historia.scss */
+/* line 24, ../../../Desktop/boca/scss/historia.scss */
 .contenedor {
   width: 90%;
   max-width: 1000px;
@@ -306,7 +310,7 @@ footer {
   gap: 1.6em;
   grid-template-columns: repeat(5, 1fr); }
 
-/* line 31, ../../../Desktop/boca/scss/historia.scss */
+/* line 33, ../../../Desktop/boca/scss/historia.scss */
 .contenedor header {
   grid-column: 1/6;
   background-color: rgba(238, 229, 97, 0.63);
@@ -314,7 +318,7 @@ footer {
   padding: 20px;
   border: 1px solid black; }
 
-/* line 39, ../../../Desktop/boca/scss/historia.scss */
+/* line 41, ../../../Desktop/boca/scss/historia.scss */
 .contenedor main {
   background-color: rgba(238, 229, 97, 0.63);
   padding: 20px;
@@ -323,17 +327,15 @@ footer {
   align-items: center;
   flex-direction: column; }
 
-/* line 48, ../../../Desktop/boca/scss/historia.scss */
+/* line 50, ../../../Desktop/boca/scss/historia.scss */
 .contenedor aside {
   background-color: rgba(238, 229, 97, 0.63);
   padding: 20px;
   border: 1px solid black; }
 
-/* line 53, ../../../Desktop/boca/scss/historia.scss */
+/* line 55, ../../../Desktop/boca/scss/historia.scss */
 .contenedor div {
-  background-color: rgba(7, 6, 87, 0.63);
-  padding: 20px;
-  border: 1px solid black; }
+  padding: 20px; }
 
 /* line 58, ../../../Desktop/boca/scss/historia.scss */
 .contenedor footer {
@@ -390,7 +392,6 @@ footer {
 
 /* line 108, ../../../Desktop/boca/scss/historia.scss */
 .contenedor .imagenabajo {
-  background-color: rgba(238, 229, 97, 0.63);
   color: #fff;
   height: 180px;
   display: flex;
@@ -398,49 +399,49 @@ footer {
   justify-content: center;
   transition: all 1s; }
 
-/* line 119, ../../../Desktop/boca/scss/historia.scss */
+/* line 118, ../../../Desktop/boca/scss/historia.scss */
 .contenedor .imagenabajo:hover {
   transform: scale(1.2);
   font-size: 32px;
   cursor: pointer; }
 
-/* line 126, ../../../Desktop/boca/scss/historia.scss */
+/* line 125, ../../../Desktop/boca/scss/historia.scss */
 article.videp {
   text-align: center;
   width: 100%;
   margin-top: 5px; }
 
-/* line 131, ../../../Desktop/boca/scss/historia.scss */
+/* line 130, ../../../Desktop/boca/scss/historia.scss */
 .imagenabajo div img {
   position: fixed;
   height: 100%;
   width: 100%; }
 
-/* line 137, ../../../Desktop/boca/scss/historia.scss */
+/* line 136, ../../../Desktop/boca/scss/historia.scss */
 footer img {
   margin: 5px; }
 
-/* line 140, ../../../Desktop/boca/scss/historia.scss */
+/* line 139, ../../../Desktop/boca/scss/historia.scss */
 img {
   max-width: 100%; }
 
-/* line 143, ../../../Desktop/boca/scss/historia.scss */
+/* line 142, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel {
   margin-left: 40px; }
 
-/* line 144, ../../../Desktop/boca/scss/historia.scss */
+/* line 143, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel ul {
   padding: 0;
   margin: 0;
   list-style: none; }
 
-/* line 145, ../../../Desktop/boca/scss/historia.scss */
+/* line 144, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel ul li {
   padding: 0;
   margin: 0;
   position: relative; }
 
-/* line 146, ../../../Desktop/boca/scss/historia.scss */
+/* line 145, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel ul li a {
   background-color: transparent;
   background-repeat: no-repeat;
@@ -453,35 +454,35 @@ img {
   text-decoration: none;
   position: relative; }
 
-/* line 147, ../../../Desktop/boca/scss/historia.scss */
+/* line 146, ../../../Desktop/boca/scss/historia.scss */
 a.tfacebook {
   background-image: url(https://lh4.googleusercontent.com/jleBWStjR4utzPxIrw987WZt6ygHTGheiZM-skAleXM8=s64-no); }
 
-/* line 148, ../../../Desktop/boca/scss/historia.scss */
+/* line 147, ../../../Desktop/boca/scss/historia.scss */
 a.tstumble {
   background-image: url(https://lh5.googleusercontent.com/XZl4YsnAtfMANehobtC1QM8lFgWDhAzOWEDSooALoqwp=s64-no); }
 
-/* line 149, ../../../Desktop/boca/scss/historia.scss */
+/* line 148, ../../../Desktop/boca/scss/historia.scss */
 a.ttwitter {
   background-image: url(https://lh5.googleusercontent.com/-ygAelYpbxKc/U5dI81gGAaI/AAAAAAAAUis/vGswwURBEQc/s64-no/1402441057_Twitter.png); }
 
-/* line 150, ../../../Desktop/boca/scss/historia.scss */
+/* line 149, ../../../Desktop/boca/scss/historia.scss */
 a.tyoutube {
   background-image: url(https://lh3.googleusercontent.com/-Mas51ujMhdA/U5dJqrGR7xI/AAAAAAAAUjU/owv4mlk2au4/s64-no/1402441143_YouTube.png); }
 
-/* line 151, ../../../Desktop/boca/scss/historia.scss */
+/* line 150, ../../../Desktop/boca/scss/historia.scss */
 a.tinstagram {
   background-image: url(https://lh5.googleusercontent.com/-M6bwv_ZXFk8/U5dK0N6pmeI/AAAAAAAAUko/sBMmeUhVWw8/s64-no/1402441098_Instagram.png); }
 
-/* line 152, ../../../Desktop/boca/scss/historia.scss */
+/* line 151, ../../../Desktop/boca/scss/historia.scss */
 a.tpinterest {
   background-image: url(https://lh6.googleusercontent.com/-h9IBD-G306o/U5dJ6vPcdTI/AAAAAAAAUjo/EeRtSTZ5AU0/s64-no/1402441109_pinterest.png); }
 
-/* line 154, ../../../Desktop/boca/scss/historia.scss */
+/* line 153, ../../../Desktop/boca/scss/historia.scss */
 a.tgoogle {
   background-image: url(https://lh6.googleusercontent.com/--Jlsq6a1BpI/U5dKkTj91lI/AAAAAAAAUkU/PbNrzuRMfgY/s64-no/1402441071_GooglePlus.png); }
 
-/* line 155, ../../../Desktop/boca/scss/historia.scss */
+/* line 154, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel a small {
   background-color: Black;
   border-radius: 10px;
@@ -498,7 +499,7 @@ a.tgoogle {
   line-height: 1;
   text-align: center; }
 
-/* line 156, ../../../Desktop/boca/scss/historia.scss */
+/* line 155, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel a:hover small {
   display: block;
   position: absolute;
@@ -536,5 +537,23 @@ a.tgoogle {
   100% {
     -webkit-transform: scale(1, 1);
     opacity: 1; } }
+
+/* line 166, ../../../Desktop/boca/scss/historia.scss */
+.abajo {
+  background-color: rgba(248, 245, 33, 0.904); }
+
+@media screen and (max-width: 768px) {
+  /* line 171, ../../../Desktop/boca/scss/historia.scss */
+  .principal {
+    text-align: center; }
+  /* line 174, ../../../Desktop/boca/scss/historia.scss */
+  .contenedor .principal {
+    grid-column: 1/-1; }
+  /* line 177, ../../../Desktop/boca/scss/historia.scss */
+  .contenedor .lateral {
+    grid-column: 1/-1; }
+  /* line 180, ../../../Desktop/boca/scss/historia.scss */
+  .contenedor .imagenabajo {
+    grid-column: 1/-1; } }
 
 /*# sourceMappingURL=historia.css.map */
