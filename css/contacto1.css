@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 3, ../../../Desktop/boca/scss/_encabezado.scss */
 #imagen1 {
   display: flex;
@@ -121,5 +122,114 @@ span {
 /* line 22, ../../../Desktop/boca/scss/contacto1.scss */
 ::placeholder {
   color: #f3f3ef; }
+
+/*FOOTER*/
+/* line 27, ../../../Desktop/boca/scss/contacto1.scss */
+footer {
+  background: rgba(24, 11, 85, 0.507);
+  background: -webkit-linear-gradient(59deg, rgba(29, 27, 109, 0.5), #16222A);
+  background: linear-gradient(59deg, rgba(46, 13, 107, 0.445), #16222A);
+  color: white;
+  margin-top: 100px; }
+
+/* line 35, ../../../Desktop/boca/scss/contacto1.scss */
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s; }
+
+/* line 41, ../../../Desktop/boca/scss/contacto1.scss */
+footer a:hover {
+  color: #ebf82e;
+  text-decoration: none; }
+
+/* line 46, ../../../Desktop/boca/scss/contacto1.scss */
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF; }
+
+/* line 52, ../../../Desktop/boca/scss/contacto1.scss */
+.footer-middle {
+  padding-top: 2em;
+  color: white; }
+
+/*SOCİAL İCONS*/
+/* footer social icons */
+/* line 62, ../../../Desktop/boca/scss/contacto1.scss */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0; }
+
+/* line 69, ../../../Desktop/boca/scss/contacto1.scss */
+ul.social-network li {
+  display: inline;
+  margin: 0 5px; }
+
+/* footer social icons */
+/* line 77, ../../../Desktop/boca/scss/contacto1.scss */
+.social-network a.icoFacebook:hover {
+  background-color: #12295c; }
+
+/* line 81, ../../../Desktop/boca/scss/contacto1.scss */
+.social-network a.icoLinkedin:hover {
+  background-color: #12435cab; }
+
+/* line 85, ../../../Desktop/boca/scss/contacto1.scss */
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: rgba(24, 14, 80, 0.418); }
+
+/* line 90, ../../../Desktop/boca/scss/contacto1.scss */
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD; }
+
+/* line 95, ../../../Desktop/boca/scss/contacto1.scss */
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px; }
+
+/* line 108, ../../../Desktop/boca/scss/contacto1.scss */
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center; }
+
+/* line 114, ../../../Desktop/boca/scss/contacto1.scss */
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s; }
+
+/* line 127, ../../../Desktop/boca/scss/contacto1.scss */
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s; }
+
+/* line 136, ../../../Desktop/boca/scss/contacto1.scss */
+.social-network a {
+  background-color: #F9F9F9; }
 
 /*# sourceMappingURL=contacto1.css.map */

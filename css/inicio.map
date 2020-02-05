@@ -6,7 +6,7 @@
 		"../scss/_encabezado.scss"
 	],
 	"sourcesContent": [
-		"@import \"encabezado\";\r\n\r\n.container-sm{\r\n    margin: 20px;\r\n}\r\n.d-block{\r\n    width: 50px;\r\n    alt: 50px;\r\n}\r\n\r\n.nav-link{\r\ncolor: yellow;}",
+		"@import \"encabezado\";\r\n\r\n.container-sm{\r\n    margin: 20px;\r\n}\r\n.d-block{\r\n    width: 50px;\r\n    alt: 50px;\r\n}\r\n\r\n.nav-link{\r\ncolor: yellow;}\r\n\r\n  ",
 		"$color : yellow;\r\n\r\n#imagen1{\r\n    display: flex;\r\n    text-align: center;\r\n    background: url(https://media1.giphy.com/media/7g4xuCeAdVKdq/giphy.gif);\r\n    margin: 20px;\r\n    padding: 10px;\r\n  \r\n    \r\n  }\r\n  \r\n  .escudo{\r\n          max-width: 150%;\r\n          margin: 20px;\r\n          width: 130px;\r\n          object-fit: contain;\r\n  }\r\n  .titulo{\r\n    color: $color;\r\n    text-transform: uppercase;\r\n    letter-spacing: .5em;\r\n    display: inline-block;\r\n    border-width: 4px 0;\r\n    position: relative;\r\n    top: 18%;\r\n    left: 50%;\r\n    width: 40em;\r\n    margin: 0 0 0 -20em;\r\n    text-align: center;\r\n    font-weight: normal;\r\n    line-height: 200%;\r\n    font-family: fantasy;\r\n    font-size: 40px;\r\n     }\r\n     .nav-link{\r\n         color: $color;\r\n     }\r\n     @media (max-width:768px)\r\n    {\r\n    .titulo{\r\n         display: none; }\r\n    #imagen1{\r\n         background: none;\r\n}  \r\n  }\r\n    @media (max-width:990px)\r\n{\r\n    .titulo{\r\n        font-size: 30px;\r\n    }\r\n    .escudo{\r\n        display: none; \r\n   }\r\n }  "
 	],
 	"names": [],
