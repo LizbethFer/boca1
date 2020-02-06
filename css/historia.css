@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 3, ../../../Desktop/boca/scss/_encabezado.scss */
 #imagen1 {
   display: flex;
@@ -51,6 +52,125 @@
   .escudo {
     display: none; } }
 
+/*FOOTER*/
+/* line 59, ../../../Desktop/boca/scss/_encabezado.scss */
+footer {
+  background: rgba(24, 11, 85, 0.507);
+  background: -webkit-linear-gradient(59deg, rgba(29, 27, 109, 0.5), #16222A);
+  background: linear-gradient(59deg, rgba(46, 13, 107, 0.445), #16222A);
+  color: white;
+  margin-top: 100px; }
+
+/* line 67, ../../../Desktop/boca/scss/_encabezado.scss */
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s; }
+
+/* line 73, ../../../Desktop/boca/scss/_encabezado.scss */
+footer a:hover {
+  color: #ebf82e;
+  text-decoration: none; }
+
+/* line 78, ../../../Desktop/boca/scss/_encabezado.scss */
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF; }
+
+/* line 84, ../../../Desktop/boca/scss/_encabezado.scss */
+.footer-middle {
+  padding-top: 2em;
+  color: white; }
+
+/*SOCİAL İCONS*/
+/* footer social icons */
+/* line 92, ../../../Desktop/boca/scss/_encabezado.scss */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0; }
+
+/* line 99, ../../../Desktop/boca/scss/_encabezado.scss */
+ul.social-network li {
+  display: inline;
+  margin: 0 5px; }
+
+/* line 106, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoFacebook:hover {
+  background-color: #12295c; }
+
+/* line 110, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoLinkedin:hover {
+  background-color: #12295c; }
+
+/* line 113, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoinstagram:hover {
+  background-color: #12295c; }
+
+/* line 116, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icotwiter:hover {
+  background-color: #12295c; }
+
+/* line 121, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoFacebook:hover i,
+.social-network a.icoinstagram:hover i,
+.social-network a.icotwiter:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: rgba(24, 14, 80, 0.418); }
+
+/* line 128, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD; }
+
+/* line 133, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px; }
+
+/* line 146, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center; }
+
+/* line 152, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s; }
+
+/* line 165, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s; }
+
+/* line 174, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a {
+  background-color: #F9F9F9; }
+
+/* footer social icons */
 /* line 7, ../../../Desktop/boca/scss/_historia2.scss */
 * {
   box-sizing: border-box; }
@@ -104,7 +224,7 @@ main {
 
 /* line 52, ../../../Desktop/boca/scss/_historia2.scss */
 footer {
-  background: #373737;
+  background: rgba(24, 24, 109, 0.733);
   margin-top: auto;
   width: 100%; }
 
@@ -339,17 +459,13 @@ nav {
 
 /* line 58, ../../../Desktop/boca/scss/historia.scss */
 .contenedor footer {
-  grid-column: 1/6;
-  background-color: rgba(238, 229, 97, 0.63);
-  color: white;
-  padding: 20px;
-  border: 1px solid black; }
+  grid-column: 1/6; }
 
-/* line 65, ../../../Desktop/boca/scss/historia.scss */
+/* line 62, ../../../Desktop/boca/scss/historia.scss */
 .contenedor .principal {
   grid-column: span 3; }
 
-/* line 68, ../../../Desktop/boca/scss/historia.scss */
+/* line 65, ../../../Desktop/boca/scss/historia.scss */
 .contenedor .lateral {
   grid-column: span 2;
   background-color: rgba(238, 229, 97, 0.63);
@@ -359,24 +475,24 @@ nav {
   align-items: center;
   flex-direction: column; }
 
-/* line 78, ../../../Desktop/boca/scss/historia.scss */
+/* line 75, ../../../Desktop/boca/scss/historia.scss */
 .contenedor article {
   background-color: rgba(7, 6, 87, 0.63);
   padding: 20px;
   margin-top: 5px;
   color: #dfe6e9; }
 
-/* line 85, ../../../Desktop/boca/scss/historia.scss */
+/* line 82, ../../../Desktop/boca/scss/historia.scss */
 .contenedor article h1 {
   padding: 10px; }
 
-/* line 88, ../../../Desktop/boca/scss/historia.scss */
+/* line 85, ../../../Desktop/boca/scss/historia.scss */
 .contenedor article iframe {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
 
-/* line 94, ../../../Desktop/boca/scss/historia.scss */
+/* line 91, ../../../Desktop/boca/scss/historia.scss */
 .lateral .historia {
   width: 100%;
   margin-top: 5px;
@@ -385,12 +501,12 @@ nav {
   justify-content: center;
   align-items: center; }
 
-/* line 104, ../../../Desktop/boca/scss/historia.scss */
+/* line 101, ../../../Desktop/boca/scss/historia.scss */
 .lateral p {
   color: rgba(248, 245, 33, 0.904);
   padding: 5px; }
 
-/* line 108, ../../../Desktop/boca/scss/historia.scss */
+/* line 105, ../../../Desktop/boca/scss/historia.scss */
 .contenedor .imagenabajo {
   color: #fff;
   height: 180px;
@@ -399,49 +515,45 @@ nav {
   justify-content: center;
   transition: all 1s; }
 
-/* line 118, ../../../Desktop/boca/scss/historia.scss */
+/* line 115, ../../../Desktop/boca/scss/historia.scss */
 .contenedor .imagenabajo:hover {
   transform: scale(1.2);
   font-size: 32px;
   cursor: pointer; }
 
-/* line 125, ../../../Desktop/boca/scss/historia.scss */
+/* line 122, ../../../Desktop/boca/scss/historia.scss */
 article.videp {
   text-align: center;
   width: 100%;
   margin-top: 5px; }
 
-/* line 130, ../../../Desktop/boca/scss/historia.scss */
+/* line 127, ../../../Desktop/boca/scss/historia.scss */
 .imagenabajo div img {
   position: fixed;
   height: 100%;
   width: 100%; }
 
-/* line 136, ../../../Desktop/boca/scss/historia.scss */
-footer img {
-  margin: 5px; }
-
-/* line 139, ../../../Desktop/boca/scss/historia.scss */
+/* line 134, ../../../Desktop/boca/scss/historia.scss */
 img {
   max-width: 100%; }
 
-/* line 142, ../../../Desktop/boca/scss/historia.scss */
+/* line 137, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel {
   margin-left: 40px; }
 
-/* line 143, ../../../Desktop/boca/scss/historia.scss */
+/* line 138, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel ul {
   padding: 0;
   margin: 0;
   list-style: none; }
 
-/* line 144, ../../../Desktop/boca/scss/historia.scss */
+/* line 139, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel ul li {
   padding: 0;
   margin: 0;
   position: relative; }
 
-/* line 145, ../../../Desktop/boca/scss/historia.scss */
+/* line 140, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel ul li a {
   background-color: transparent;
   background-repeat: no-repeat;
@@ -454,35 +566,35 @@ img {
   text-decoration: none;
   position: relative; }
 
-/* line 146, ../../../Desktop/boca/scss/historia.scss */
+/* line 141, ../../../Desktop/boca/scss/historia.scss */
 a.tfacebook {
   background-image: url(https://lh4.googleusercontent.com/jleBWStjR4utzPxIrw987WZt6ygHTGheiZM-skAleXM8=s64-no); }
 
-/* line 147, ../../../Desktop/boca/scss/historia.scss */
+/* line 142, ../../../Desktop/boca/scss/historia.scss */
 a.tstumble {
   background-image: url(https://lh5.googleusercontent.com/XZl4YsnAtfMANehobtC1QM8lFgWDhAzOWEDSooALoqwp=s64-no); }
 
-/* line 148, ../../../Desktop/boca/scss/historia.scss */
+/* line 143, ../../../Desktop/boca/scss/historia.scss */
 a.ttwitter {
   background-image: url(https://lh5.googleusercontent.com/-ygAelYpbxKc/U5dI81gGAaI/AAAAAAAAUis/vGswwURBEQc/s64-no/1402441057_Twitter.png); }
 
-/* line 149, ../../../Desktop/boca/scss/historia.scss */
+/* line 144, ../../../Desktop/boca/scss/historia.scss */
 a.tyoutube {
   background-image: url(https://lh3.googleusercontent.com/-Mas51ujMhdA/U5dJqrGR7xI/AAAAAAAAUjU/owv4mlk2au4/s64-no/1402441143_YouTube.png); }
 
-/* line 150, ../../../Desktop/boca/scss/historia.scss */
+/* line 145, ../../../Desktop/boca/scss/historia.scss */
 a.tinstagram {
   background-image: url(https://lh5.googleusercontent.com/-M6bwv_ZXFk8/U5dK0N6pmeI/AAAAAAAAUko/sBMmeUhVWw8/s64-no/1402441098_Instagram.png); }
 
-/* line 151, ../../../Desktop/boca/scss/historia.scss */
+/* line 146, ../../../Desktop/boca/scss/historia.scss */
 a.tpinterest {
   background-image: url(https://lh6.googleusercontent.com/-h9IBD-G306o/U5dJ6vPcdTI/AAAAAAAAUjo/EeRtSTZ5AU0/s64-no/1402441109_pinterest.png); }
 
-/* line 153, ../../../Desktop/boca/scss/historia.scss */
+/* line 148, ../../../Desktop/boca/scss/historia.scss */
 a.tgoogle {
   background-image: url(https://lh6.googleusercontent.com/--Jlsq6a1BpI/U5dKkTj91lI/AAAAAAAAUkU/PbNrzuRMfgY/s64-no/1402441071_GooglePlus.png); }
 
-/* line 154, ../../../Desktop/boca/scss/historia.scss */
+/* line 149, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel a small {
   background-color: Black;
   border-radius: 10px;
@@ -499,7 +611,7 @@ a.tgoogle {
   line-height: 1;
   text-align: center; }
 
-/* line 155, ../../../Desktop/boca/scss/historia.scss */
+/* line 150, ../../../Desktop/boca/scss/historia.scss */
 #masterpanel a:hover small {
   display: block;
   position: absolute;
@@ -538,21 +650,25 @@ a.tgoogle {
     -webkit-transform: scale(1, 1);
     opacity: 1; } }
 
-/* line 166, ../../../Desktop/boca/scss/historia.scss */
+/* line 161, ../../../Desktop/boca/scss/historia.scss */
 .abajo {
   background-color: rgba(248, 245, 33, 0.904); }
 
+/* line 164, ../../../Desktop/boca/scss/historia.scss */
+footer {
+  background-color: rgba(24, 24, 109, 0.733); }
+
 @media screen and (max-width: 768px) {
-  /* line 171, ../../../Desktop/boca/scss/historia.scss */
+  /* line 169, ../../../Desktop/boca/scss/historia.scss */
   .principal {
     text-align: center; }
-  /* line 174, ../../../Desktop/boca/scss/historia.scss */
+  /* line 172, ../../../Desktop/boca/scss/historia.scss */
   .contenedor .principal {
     grid-column: 1/-1; }
-  /* line 177, ../../../Desktop/boca/scss/historia.scss */
+  /* line 175, ../../../Desktop/boca/scss/historia.scss */
   .contenedor .lateral {
     grid-column: 1/-1; }
-  /* line 180, ../../../Desktop/boca/scss/historia.scss */
+  /* line 178, ../../../Desktop/boca/scss/historia.scss */
   .contenedor .imagenabajo {
     grid-column: 1/-1; } }
 

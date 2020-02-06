@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 3, ../../../Desktop/boca/scss/_encabezado.scss */
 #imagen1 {
   display: flex;
@@ -51,6 +52,125 @@
   .escudo {
     display: none; } }
 
+/*FOOTER*/
+/* line 59, ../../../Desktop/boca/scss/_encabezado.scss */
+footer {
+  background: rgba(24, 11, 85, 0.507);
+  background: -webkit-linear-gradient(59deg, rgba(29, 27, 109, 0.5), #16222A);
+  background: linear-gradient(59deg, rgba(46, 13, 107, 0.445), #16222A);
+  color: white;
+  margin-top: 100px; }
+
+/* line 67, ../../../Desktop/boca/scss/_encabezado.scss */
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s; }
+
+/* line 73, ../../../Desktop/boca/scss/_encabezado.scss */
+footer a:hover {
+  color: #ebf82e;
+  text-decoration: none; }
+
+/* line 78, ../../../Desktop/boca/scss/_encabezado.scss */
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF; }
+
+/* line 84, ../../../Desktop/boca/scss/_encabezado.scss */
+.footer-middle {
+  padding-top: 2em;
+  color: white; }
+
+/*SOCİAL İCONS*/
+/* footer social icons */
+/* line 92, ../../../Desktop/boca/scss/_encabezado.scss */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0; }
+
+/* line 99, ../../../Desktop/boca/scss/_encabezado.scss */
+ul.social-network li {
+  display: inline;
+  margin: 0 5px; }
+
+/* line 106, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoFacebook:hover {
+  background-color: #12295c; }
+
+/* line 110, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoLinkedin:hover {
+  background-color: #12295c; }
+
+/* line 113, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoinstagram:hover {
+  background-color: #12295c; }
+
+/* line 116, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icotwiter:hover {
+  background-color: #12295c; }
+
+/* line 121, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.icoFacebook:hover i,
+.social-network a.icoinstagram:hover i,
+.social-network a.icotwiter:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: rgba(24, 14, 80, 0.418); }
+
+/* line 128, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD; }
+
+/* line 133, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px; }
+
+/* line 146, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center; }
+
+/* line 152, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s; }
+
+/* line 165, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s; }
+
+/* line 174, ../../../Desktop/boca/scss/_encabezado.scss */
+.social-network a {
+  background-color: #F9F9F9; }
+
+/* footer social icons */
 /* line 3, ../../../Desktop/boca/scss/inicio.scss */
 .container-sm {
   margin: 20px; }
@@ -63,5 +183,13 @@
 /* line 11, ../../../Desktop/boca/scss/inicio.scss */
 .nav-link {
   color: yellow; }
+
+/* line 14, ../../../Desktop/boca/scss/inicio.scss */
+h3 {
+  color: yellow; }
+
+/* line 18, ../../../Desktop/boca/scss/inicio.scss */
+.carousel-caption {
+  background: rgba(24, 24, 109, 0.733); }
 
 /*# sourceMappingURL=inicio.css.map */

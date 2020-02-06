@@ -57,10 +57,7 @@
     }
     .contenedor footer{
       grid-column: 1/6;
-      background-color: rgba(238, 229, 97, 0.63);
-      color: white;
-      padding: 20px;
-      border: 1px solid black;
+      
     }
     .contenedor .principal{
       grid-column: span 3;
@@ -133,9 +130,7 @@
       width: 100%;
       
     }
-    footer img{
-      margin: 5px;
-    }
+
     img {
       max-width: 100%;
    }
@@ -165,6 +160,9 @@
   }
   .abajo{
     background-color: rgba(248, 245, 33, 0.904);
+  }
+  footer{
+    background-color: rgba(24, 24, 109, 0.733);
   }
 
 @media screen and (max-width:768px ){
