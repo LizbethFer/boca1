@@ -192,4 +192,14 @@ h3 {
 .carousel-caption {
   background: rgba(24, 24, 109, 0.733); }
 
+/* line 21, ../../../Desktop/boca/scss/inicio.scss */
+.logo {
+  width: 0; }
+
+@media (max-width: 768px) {
+  /* line 25, ../../../Desktop/boca/scss/inicio.scss */
+  .logo {
+    width: 10%;
+    margin-left: 5px; } }
+
 /*# sourceMappingURL=inicio.css.map */
