@@ -33,6 +33,27 @@ $color : yellow;
     font-family: fantasy;
     font-size: 40px;
      }
+
+     .logo{
+      width: 0;
+  }
+  @media (max-width:768px){
+             .logo{
+                 width: 10%;
+                 margin-left: 5px;
+             }
+      
+  }
+  @media (max-width:500px){
+      .navbar-brand{
+          width: 197px;
+      }
+  }
+  @media (max-width:400px){
+      .navbar-brand{
+          width: 150px;
+      }
+  }     
      .nav-link{
          color: $color;
      }

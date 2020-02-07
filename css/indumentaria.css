@@ -32,28 +32,48 @@
   font-family: fantasy;
   font-size: 40px; }
 
-/* line 36, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 37, ../../../Desktop/boca/scss/_encabezado.scss */
+.logo {
+  width: 0; }
+
+@media (max-width: 768px) {
+  /* line 41, ../../../Desktop/boca/scss/_encabezado.scss */
+  .logo {
+    width: 10%;
+    margin-left: 5px; } }
+
+@media (max-width: 500px) {
+  /* line 48, ../../../Desktop/boca/scss/_encabezado.scss */
+  .navbar-brand {
+    width: 197px; } }
+
+@media (max-width: 400px) {
+  /* line 53, ../../../Desktop/boca/scss/_encabezado.scss */
+  .navbar-brand {
+    width: 150px; } }
+
+/* line 57, ../../../Desktop/boca/scss/_encabezado.scss */
 .nav-link {
   color: yellow; }
 
 @media (max-width: 768px) {
-  /* line 41, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 62, ../../../Desktop/boca/scss/_encabezado.scss */
   .titulo {
     display: none; }
-  /* line 43, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 64, ../../../Desktop/boca/scss/_encabezado.scss */
   #imagen1 {
     background: none; } }
 
 @media (max-width: 990px) {
-  /* line 49, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 70, ../../../Desktop/boca/scss/_encabezado.scss */
   .titulo {
     font-size: 30px; }
-  /* line 52, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 73, ../../../Desktop/boca/scss/_encabezado.scss */
   .escudo {
     display: none; } }
 
 /*FOOTER*/
-/* line 59, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 80, ../../../Desktop/boca/scss/_encabezado.scss */
 footer {
   background: rgba(24, 11, 85, 0.507);
   background: -webkit-linear-gradient(59deg, rgba(29, 27, 109, 0.5), #16222A);
@@ -61,71 +81,71 @@ footer {
   color: white;
   margin-top: 100px; }
 
-/* line 67, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 88, ../../../Desktop/boca/scss/_encabezado.scss */
 footer a {
   color: #fff;
   font-size: 14px;
   transition-duration: 0.2s; }
 
-/* line 73, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 94, ../../../Desktop/boca/scss/_encabezado.scss */
 footer a:hover {
   color: #ebf82e;
   text-decoration: none; }
 
-/* line 78, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 99, ../../../Desktop/boca/scss/_encabezado.scss */
 .copy {
   font-size: 12px;
   padding: 10px;
   border-top: 1px solid #FFFFFF; }
 
-/* line 84, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 105, ../../../Desktop/boca/scss/_encabezado.scss */
 .footer-middle {
   padding-top: 2em;
   color: white; }
 
 /*SOCİAL İCONS*/
 /* footer social icons */
-/* line 92, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 113, ../../../Desktop/boca/scss/_encabezado.scss */
 ul.social-network {
   list-style: none;
   display: inline;
   margin-left: 0 !important;
   padding: 0; }
 
-/* line 99, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 120, ../../../Desktop/boca/scss/_encabezado.scss */
 ul.social-network li {
   display: inline;
   margin: 0 5px; }
 
-/* line 106, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 127, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoFacebook:hover {
   background-color: #12295c; }
 
-/* line 110, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 131, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoLinkedin:hover {
   background-color: #12295c; }
 
-/* line 113, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 134, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoinstagram:hover {
   background-color: #12295c; }
 
-/* line 116, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 137, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icotwiter:hover {
   background-color: #12295c; }
 
-/* line 121, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 142, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoFacebook:hover i,
 .social-network a.icoinstagram:hover i,
 .social-network a.icotwiter:hover i,
 .social-network a.icoLinkedin:hover i {
   color: rgba(24, 14, 80, 0.418); }
 
-/* line 128, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 149, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.socialIcon:hover,
 .socialHoverClass {
   color: #44BCDD; }
 
-/* line 133, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 154, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle li a {
   display: inline-block;
   position: relative;
@@ -138,13 +158,13 @@ ul.social-network li {
   height: 30px;
   font-size: 15px; }
 
-/* line 146, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 167, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle li i {
   margin: 0;
   line-height: 30px;
   text-align: center; }
 
-/* line 152, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 173, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle li a:hover i,
 .triggeredHover {
   -moz-transform: rotate(360deg);
@@ -157,7 +177,7 @@ ul.social-network li {
   -ms-transition: all 0.2s;
   transition: all 0.2s; }
 
-/* line 165, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 186, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle i {
   color: #595959;
   -webkit-transition: all 0.8s;
@@ -166,199 +186,123 @@ ul.social-network li {
   -ms-transition: all 0.8s;
   transition: all 0.8s; }
 
-/* line 174, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 195, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a {
   background-color: #F9F9F9; }
 
 /* footer social icons */
-/* line 2, ../../../Desktop/boca/scss/indumentaria.scss */
-.container {
-  margin: 20px; }
-
 /* line 5, ../../../Desktop/boca/scss/indumentaria.scss */
-.femenino {
-  font-family: 'Roboto Mono', monospace;
-  font-family: 'Fjalla One', sans-serif;
-  color: yellow;
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 12, ../../../Desktop/boca/scss/indumentaria.scss */
+h1 {
   text-align: center;
-  text-decoration-line: underline;
-  margin: 10px; }
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 1px 2px #000; }
 
-/* line 15, ../../../Desktop/boca/scss/indumentaria.scss */
-.galeria {
-  position: relative;
-  width: 60%;
-  /* Ancho a ocupar por la galería sobre el total disponible */
+/*Time to apply widths for accordian to work
+Width of image = 640px
+total images = 5
+so width of hovered image = 640px
+width of un-hovered image = 40px - you can set this to anything
+so total container width = 640 + 40*4 = 800px;
+default width = 800/5 = 160px;
+*/
+/* line 30, ../../../Desktop/boca/scss/indumentaria.scss */
+.contenedor-galeria {
+  width: 805px;
+  height: 320px;
   overflow: hidden;
-  margin: 20px auto;
-  background-color: #000;
-  box-shadow: 1px 1px 6px #000; }
-
-/* line 23, ../../../Desktop/boca/scss/indumentaria.scss */
-.galeria:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjxhzcSi-N4Grw77bve_dws2sS4GRplrXUOjJRKA3XnHl9E2rc);
-  /* Fondo por defecto */
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  opacity: .1; }
-
-/* line 32, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen {
-  position: relative;
-  width: 15%;
-  /* Ancho de la miniatura sobre el ancho total de la galería */
-  padding-bottom: 15%;
-  /* Idéntico al anterior para miniaturas cuadradas */
-  background-position: 50% 50%;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  cursor: pointer; }
+  margin: 50px auto;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); }
 
 /* line 40, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:nth-of-type(1) {
-  background-image: url(https://http2.mlstatic.com/D_NQ_NP_908052-MLA28702067306_112018-Q.jpg); }
+.contenedor-galeria ul {
+  width: 2000px; }
 
-/* line 43, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:nth-of-type(2) {
-  background-image: url(https://http2.mlstatic.com/sudadera-o-musculosa-de-dama-de-boca-oficial-D_NQ_NP_756425-MLA28262562517_092018-F.jpg); }
+/* line 44, ../../../Desktop/boca/scss/indumentaria.scss */
+.contenedor-galeria li {
+  position: relative;
+  display: block;
+  width: 160px;
+  float: left;
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s; }
 
-/* line 46, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:nth-of-type(3) {
-  background-image: url(https://d26lpennugtm8s.cloudfront.net/stores/868/618/products/931-98f7db341ab323cd1f15387751519529-1024-1024.jpg); }
+/* line 55, ../../../Desktop/boca/scss/indumentaria.scss */
+.contenedor-galeria ul:hover li {
+  width: 40px;
+  filter: brightness(50%); }
 
-/* line 49, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:nth-of-type(4) {
-  background-image: url(https://http2.mlstatic.com/remera-boca-juniors-let-mujer-D_NQ_NP_931256-MLA28255089452_092018-Q.jpg); }
+/* line 60, ../../../Desktop/boca/scss/indumentaria.scss */
+.contenedor-galeria ul li:hover {
+  width: 640px;
+  filter: brightness(100%); }
 
-/* line 52, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:nth-of-type(5) {
-  background-image: url(https://www.bocashop.com.ar/ccstore/v1/images/?source=/file/v8955069084202689261/products/BJ181152%BL_1.jpg&height=300&width=300); }
-
-/* line 57, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:before {
-  content: "";
-  position: absolute;
-  top: -900%;
-  /* ((Nºimágenes*2)-1)*100*/
-  left: 100%;
-  width: 566%;
-  /* (10000/ancho_imagen)-100 */
-  height: 500%;
-  /* Nºimagenes*100 */
-  background-image: inherit;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -moz-transition: all .8s;
-  -webkit-transition: all .8s;
-  transition: all .8s; }
-
-/* line 68, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:hover:nth-of-type(1):before {
-  top: 0%;
-  /* (Nº.nth-1)*(-100) */ }
+/* line 65, ../../../Desktop/boca/scss/indumentaria.scss */
+.contenedor-galeria li img {
+  display: block;
+  width: 640px;
+  height: 100%; }
 
 /* line 71, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:hover:nth-of-type(2):before {
-  top: -100%;
-  /* (Nº.nth-1)*(-100) */ }
+.titulo-imagen {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  display: block;
+  transition: all 0.5s ease;
+  animation: cambia-color 10s linear infinite;
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.8));
+  background-size: 400% 400%; }
 
-/* line 74, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:hover:nth-of-type(3):before {
-  top: -200%;
-  /* (Nº.nth-1)*(-100) */ }
+@keyframes cambia-color {
+  0% {
+    background-position: 0%, 50%; }
+  50% {
+    background-position: 100%, 50%; }
+  100% {
+    background-position: 0%, 100%; } }
 
-/* line 77, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:hover:nth-of-type(4):before {
-  top: -300%;
-  /* (Nº.nth-1)*(-100) */ }
-
-/* line 81, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen:hover:nth-of-type(5):before {
-  top: -400%;
-  /* (Nº.nth-1)*(-100) */ }
-
-/* line 86, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2 {
-  position: relative;
-  width: 15%;
-  /* Ancho de la miniatura sobre el ancho total de la galería */
-  padding-bottom: 15%;
-  /* Idéntico al anterior para miniaturas cuadradas */
-  background-position: 50% 50%;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  cursor: pointer; }
-
-/* line 94, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:nth-of-type(1) {
-  background-image: url(https://www.authogar.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/c/a/camiseta_boca_ofic_aj5292_492_1.png); }
-
-/* line 97, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:nth-of-type(2) {
-  background-image: url(https://cdn.shopify.com/s/files/1/0043/1662/7032/products/19d4e03708_2048x.png?v=1570128785); }
-
-/* line 100, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:nth-of-type(3) {
-  background-image: url(https://www.templodelfutbol.com.ar/1954-large_default/cam-boca-m-nk-brt-stad-jys-ss-away-al-mn.jpg); }
-
-/* line 103, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:nth-of-type(4) {
-  background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto:sensitive,fl_lossy/187ef3554f2344548263ab3c013f12e4_9366/Camiseta_Visitante_Boca_Juniors_Blanco_GL4171_01_laydown.jpg); }
+/* line 95, ../../../Desktop/boca/scss/indumentaria.scss */
+.titulo-imagen a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  font-size: 19px;
+  text-shadow: 0 1px 2px #000;
+  transition: all 0.5s ease; }
 
 /* line 106, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:nth-of-type(5) {
-  background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto:sensitive,fl_lossy/3238d8e3307b4ec99821ab3b01596db7_9366/Camiseta_Titular_Boca_Juniors_Azul_GL4175_01_laydown.jpg); }
-
-/* line 111, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:before {
-  content: "";
-  position: absolute;
-  top: -900%;
-  /* ((Nºimágenes*2)-1)*100*/
-  left: 100%;
-  width: 566%;
-  /* (10000/ancho_imagen)-100 */
-  height: 500%;
-  /* Nºimagenes*100 */
-  background-image: inherit;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -moz-transition: all .8s;
-  -webkit-transition: all .8s;
-  transition: all .8s; }
-
-/* line 122, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:hover:nth-of-type(1):before {
+.contenedor-galeria ul li:hover .titulo-imagen {
   top: 0%;
-  /* (Nº.nth-1)*(-100) */ }
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5); }
 
-/* line 125, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:hover:nth-of-type(2):before {
-  top: -100%;
-  /* (Nº.nth-1)*(-100) */ }
+/* line 113, ../../../Desktop/boca/scss/indumentaria.scss */
+.titulo-imagen:hover a {
+  transform: scale(1.1);
+  transition: all 0.5s ease; }
 
-/* line 128, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:hover:nth-of-type(3):before {
-  top: -200%;
-  /* (Nº.nth-1)*(-100) */ }
+/* line 118, ../../../Desktop/boca/scss/indumentaria.scss */
+.titulo-imagen:active {
+  background: rgba(255, 255, 255, 0.5); }
 
-/* line 131, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:hover:nth-of-type(4):before {
-  top: -300%;
-  /* (Nº.nth-1)*(-100) */ }
-
-/* line 135, ../../../Desktop/boca/scss/indumentaria.scss */
-.imagen2:hover:nth-of-type(5):before {
-  top: -400%;
-  /* (Nº.nth-1)*(-100) */ }
+/* line 121, ../../../Desktop/boca/scss/indumentaria.scss */
+.imagen-l {
+  object-fit: contain;
+  width: 100%; }
 
 /*# sourceMappingURL=indumentaria.css.map */
