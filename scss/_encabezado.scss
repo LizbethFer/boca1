@@ -42,6 +42,11 @@ $color : yellow;
                  width: 10%;
                  margin-left: 5px;
              }
+             .titulo{
+              display: none; }
+             #imagen1{
+              background: none;
+     }  
       
   }
   @media (max-width:500px){
@@ -59,11 +64,7 @@ $color : yellow;
      }
      @media (max-width:768px)
     {
-    .titulo{
-         display: none; }
-    #imagen1{
-         background: none;
-}  
+
   }
     @media (max-width:990px)
 {
@@ -73,6 +74,10 @@ $color : yellow;
     .escudo{
         display: none; 
    }
+   .logo{
+    width: 10%;
+    margin-left: 5px;
+}
  } 
  
  /*FOOTER*/

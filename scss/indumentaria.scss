@@ -29,7 +29,7 @@ default width = 800/5 = 160px;
 
 .contenedor-galeria {
     width: 805px;
-    height: 320px;
+    height: 420px;
     overflow: hidden;
     margin: 50px auto;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
@@ -76,9 +76,10 @@ default width = 800/5 = 160px;
     display: block;
     transition: all 0.5s ease;
     animation: cambia-color 10s linear infinite;
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.8));
+    background: -webkit-linear-gradient(left, rgba(33, 17, 179, 0.651), rgba(212, 212, 20, 0.712));
     background-size: 400% 400%;
 }
+
 
 @keyframes cambia-color {
     0% {
@@ -122,3 +123,4 @@ default width = 800/5 = 160px;
     object-fit: contain;
 width: 100%;
 }
+

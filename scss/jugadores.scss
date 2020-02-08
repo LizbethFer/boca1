@@ -34,17 +34,18 @@ figcaption:hover {
 	text-align: center;
 	font-size: 38px;
 	margin: 15px 0px 40px;
-	grid-column: span 5;
+	grid-column: 2/4;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Fjalla One', sans-serif;
-color: yellow
+    color: yellow
+
 	 
 }
 
 .equipo-container{
     width: 90%;
     max-width: 1000px;
-    margin: 1.6em auto;
+    margin: 1.6em ;
     background-color: rgba(21, 21, 66, 0.432);
 
   
@@ -55,14 +56,17 @@ color: yellow
 }
 
 .equipo-item {
-	width: 200px;
-
+    width: 200px;
+    grid-column: 1/6;
+    
+}
+.equipo-c{
+    grid-column: 1/6;
+    display: flex;
+    margin: 5px;
 
 }
-div{
-    grid-column: 2/6;
 
-}
 
 .equipo-imagen{
     max-width: 110%;      
@@ -87,3 +91,17 @@ div{
 
   }
   
+  @media screen and (max-width:768px ){
+      .equipo-container{
+display: inline-block;
+      }
+      
+  }
+  @media screen and (max-width:900px ){
+      .equipo-item{
+          display: list-item;
+      }
+      .equipo-c{
+          display: table;
+      }
+  }

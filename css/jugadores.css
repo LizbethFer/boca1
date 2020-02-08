@@ -40,40 +40,42 @@
   /* line 41, ../../../Desktop/boca/scss/_encabezado.scss */
   .logo {
     width: 10%;
-    margin-left: 5px; } }
+    margin-left: 5px; }
+  /* line 45, ../../../Desktop/boca/scss/_encabezado.scss */
+  .titulo {
+    display: none; }
+  /* line 47, ../../../Desktop/boca/scss/_encabezado.scss */
+  #imagen1 {
+    background: none; } }
 
 @media (max-width: 500px) {
-  /* line 48, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 53, ../../../Desktop/boca/scss/_encabezado.scss */
   .navbar-brand {
     width: 197px; } }
 
 @media (max-width: 400px) {
-  /* line 53, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 58, ../../../Desktop/boca/scss/_encabezado.scss */
   .navbar-brand {
     width: 150px; } }
 
-/* line 57, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 62, ../../../Desktop/boca/scss/_encabezado.scss */
 .nav-link {
   color: yellow; }
 
-@media (max-width: 768px) {
-  /* line 62, ../../../Desktop/boca/scss/_encabezado.scss */
-  .titulo {
-    display: none; }
-  /* line 64, ../../../Desktop/boca/scss/_encabezado.scss */
-  #imagen1 {
-    background: none; } }
-
 @media (max-width: 990px) {
-  /* line 70, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 71, ../../../Desktop/boca/scss/_encabezado.scss */
   .titulo {
     font-size: 30px; }
-  /* line 73, ../../../Desktop/boca/scss/_encabezado.scss */
+  /* line 74, ../../../Desktop/boca/scss/_encabezado.scss */
   .escudo {
-    display: none; } }
+    display: none; }
+  /* line 77, ../../../Desktop/boca/scss/_encabezado.scss */
+  .logo {
+    width: 10%;
+    margin-left: 5px; } }
 
 /*FOOTER*/
-/* line 80, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 85, ../../../Desktop/boca/scss/_encabezado.scss */
 footer {
   background: rgba(24, 11, 85, 0.507);
   background: -webkit-linear-gradient(59deg, rgba(29, 27, 109, 0.5), #16222A);
@@ -81,71 +83,71 @@ footer {
   color: white;
   margin-top: 100px; }
 
-/* line 88, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 93, ../../../Desktop/boca/scss/_encabezado.scss */
 footer a {
   color: #fff;
   font-size: 14px;
   transition-duration: 0.2s; }
 
-/* line 94, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 99, ../../../Desktop/boca/scss/_encabezado.scss */
 footer a:hover {
   color: #ebf82e;
   text-decoration: none; }
 
-/* line 99, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 104, ../../../Desktop/boca/scss/_encabezado.scss */
 .copy {
   font-size: 12px;
   padding: 10px;
   border-top: 1px solid #FFFFFF; }
 
-/* line 105, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 110, ../../../Desktop/boca/scss/_encabezado.scss */
 .footer-middle {
   padding-top: 2em;
   color: white; }
 
 /*SOCİAL İCONS*/
 /* footer social icons */
-/* line 113, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 118, ../../../Desktop/boca/scss/_encabezado.scss */
 ul.social-network {
   list-style: none;
   display: inline;
   margin-left: 0 !important;
   padding: 0; }
 
-/* line 120, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 125, ../../../Desktop/boca/scss/_encabezado.scss */
 ul.social-network li {
   display: inline;
   margin: 0 5px; }
 
-/* line 127, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 132, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoFacebook:hover {
   background-color: #12295c; }
 
-/* line 131, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 136, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoLinkedin:hover {
   background-color: #12295c; }
 
-/* line 134, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 139, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoinstagram:hover {
   background-color: #12295c; }
 
-/* line 137, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 142, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icotwiter:hover {
   background-color: #12295c; }
 
-/* line 142, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 147, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.icoFacebook:hover i,
 .social-network a.icoinstagram:hover i,
 .social-network a.icotwiter:hover i,
 .social-network a.icoLinkedin:hover i {
   color: rgba(24, 14, 80, 0.418); }
 
-/* line 149, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 154, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a.socialIcon:hover,
 .socialHoverClass {
   color: #44BCDD; }
 
-/* line 154, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 159, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle li a {
   display: inline-block;
   position: relative;
@@ -158,13 +160,13 @@ ul.social-network li {
   height: 30px;
   font-size: 15px; }
 
-/* line 167, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 172, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle li i {
   margin: 0;
   line-height: 30px;
   text-align: center; }
 
-/* line 173, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 178, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle li a:hover i,
 .triggeredHover {
   -moz-transform: rotate(360deg);
@@ -177,7 +179,7 @@ ul.social-network li {
   -ms-transition: all 0.2s;
   transition: all 0.2s; }
 
-/* line 186, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 191, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-circle i {
   color: #595959;
   -webkit-transition: all 0.8s;
@@ -186,7 +188,7 @@ ul.social-network li {
   -ms-transition: all 0.8s;
   transition: all 0.8s; }
 
-/* line 195, ../../../Desktop/boca/scss/_encabezado.scss */
+/* line 200, ../../../Desktop/boca/scss/_encabezado.scss */
 .social-network a {
   background-color: #F9F9F9; }
 
@@ -226,45 +228,61 @@ figcaption:hover {
   text-align: center;
   font-size: 38px;
   margin: 15px 0px 40px;
-  grid-column: span 5;
+  grid-column: 2/4;
   font-family: 'Roboto Mono', monospace;
   font-family: 'Fjalla One', sans-serif;
   color: yellow; }
 
-/* line 44, ../../../Desktop/boca/scss/jugadores.scss */
+/* line 45, ../../../Desktop/boca/scss/jugadores.scss */
 .equipo-container {
   width: 90%;
   max-width: 1000px;
-  margin: 1.6em auto;
+  margin: 1.6em;
   background-color: rgba(21, 21, 66, 0.432);
   display: grid;
   gap: 1.6em;
   grid-template-columns: repeat(5, 1fr); }
 
-/* line 57, ../../../Desktop/boca/scss/jugadores.scss */
+/* line 58, ../../../Desktop/boca/scss/jugadores.scss */
 .equipo-item {
-  width: 200px; }
+  width: 200px;
+  grid-column: 1/6; }
 
-/* line 62, ../../../Desktop/boca/scss/jugadores.scss */
-div {
-  grid-column: 2/6; }
+/* line 63, ../../../Desktop/boca/scss/jugadores.scss */
+.equipo-c {
+  grid-column: 1/6;
+  display: flex;
+  margin: 5px; }
 
-/* line 67, ../../../Desktop/boca/scss/jugadores.scss */
+/* line 71, ../../../Desktop/boca/scss/jugadores.scss */
 .equipo-imagen {
   max-width: 110%;
   width: 200px;
   padding: 10px;
   transition: all 1s; }
 
-/* line 78, ../../../Desktop/boca/scss/jugadores.scss */
+/* line 82, ../../../Desktop/boca/scss/jugadores.scss */
 .equipo-imagen:hover {
   transform: scale(1.2);
   font-size: 32px;
   cursor: pointer; }
 
 @media (max-width: 768px) {
-  /* line 84, ../../../Desktop/boca/scss/jugadores.scss */
+  /* line 88, ../../../Desktop/boca/scss/jugadores.scss */
   .equipo-container .equipo-item {
     grid-column: 2/-1; } }
+
+@media screen and (max-width: 768px) {
+  /* line 95, ../../../Desktop/boca/scss/jugadores.scss */
+  .equipo-container {
+    display: inline-block; } }
+
+@media screen and (max-width: 900px) {
+  /* line 101, ../../../Desktop/boca/scss/jugadores.scss */
+  .equipo-item {
+    display: list-item; }
+  /* line 104, ../../../Desktop/boca/scss/jugadores.scss */
+  .equipo-c {
+    display: table; } }
 
 /*# sourceMappingURL=jugadores.css.map */
