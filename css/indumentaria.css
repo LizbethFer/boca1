@@ -151,7 +151,7 @@ ul.social-network li {
 .social-circle li a {
   display: inline-block;
   position: relative;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 0 auto 0 auto 0 auto;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -306,5 +306,22 @@ default width = 800/5 = 160px;
 .imagen-l {
   object-fit: contain;
   width: 100%; }
+
+@media (max-width: 990px) {
+  /* line 127, ../../../Desktop/boca/scss/indumentaria.scss */
+  .contenedor-galeria {
+    height: 420px;
+    overflow: scroll;
+    width: 500px; }
+  /* line 132, ../../../Desktop/boca/scss/indumentaria.scss */
+  .titulo-imagen {
+    top: 0rem;
+    position: inherit; }
+  /* line 136, ../../../Desktop/boca/scss/indumentaria.scss */
+  .contenedor-galeria ul {
+    width: 200px; }
+  /* line 139, ../../../Desktop/boca/scss/indumentaria.scss */
+  .contenedor-galeria li {
+    width: auto; } }
 
 /*# sourceMappingURL=indumentaria.css.map */

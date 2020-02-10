@@ -123,4 +123,21 @@ default width = 800/5 = 160px;
     object-fit: contain;
 width: 100%;
 }
+@media (max-width:990px){
+    .contenedor-galeria{
+      height: 420px;
+      overflow: scroll;
+      width: 500px;
+    }
+    .titulo-imagen{
+        top: 0rem;
+        position: inherit;
+    }
+    .contenedor-galeria ul{
+        width: 200px;
+    }
+    .contenedor-galeria li{
+        width: auto;
+    }
+}
 
